@@ -9,4 +9,3 @@ This multiple choice coding quiz tests your knowledge of JavaScript. This app ru
 * HTML
 * CSS
 * JavaScript
-
