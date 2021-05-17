@@ -1,0 +1,120 @@
+body {
+    background-color: white;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #98c1d9;
+}
+
+a {
+    color: black;
+}
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+}
+
+.title {
+    color: black;
+}
+
+.startButton {
+    background: #e0fbfc;
+    border: 2px, black, solid;
+    border-radius: 50px;
+    font-size: 20px;
+    width: 15rem;
+    margin: 1rem;
+}
+
+.play {
+    border: 2px, black, solid;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.form {
+    padding: 2rem;
+}
+
+.ansBtn {
+    padding: 1rem;
+    border: 2px solid #e0fbfc;
+    background:#e0fbfc;
+    border-radius: 50px;
+}
+
+.ansBtn:hover {
+    box-shadow: 0 0.4rem 1.4rem 0 #e0fbfc;
+    transition: transform 50ms;
+    transform: scale(1.05);
+}
+
+.choice-button {
+    padding: 1rem;
+    margin: 2px;
+    border: 2px solid #e0fbfc;
+    background:#e0fbfc;
+    border-radius: 50px;
+}
+
+.choice-button:hover {
+    box-shadow: 0 0.4rem 1.4rem 0 #e0fbfc;
+    transition: transform 50ms;
+    transform: scale(1.05);
+}
+
+h3 {
+    pointer-events: none;  
+}
+
+h2 {
+    pointer-events: none;
+}
+
+.inputBox {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.inputBox::placeholder {
+    color: #aaa;
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+   list-style: none;
+}
